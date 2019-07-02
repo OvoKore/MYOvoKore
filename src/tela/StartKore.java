@@ -105,7 +105,7 @@ public class StartKore {
 	public void Esperar() {
 		try {
 			new Thread();
-			Thread.sleep(100);
+			Thread.sleep(250);
 		} catch (InterruptedException e) {
 			JOptionPane.showMessageDialog(null, "Erro");
 		}
